@@ -1,23 +1,3 @@
-# Simple MVC framework using Object-Oriented Programming PHP
-
-Demo: https://projects.elmer.dev/oop-mvc/
-
-Uses [Bootstrap 4](https://getbootstrap.com/) for the CSS framework.
-
-## Features
-* Adding, listing, updating, deleting entries
-* User registration
-* User login/logout
-* Password-hashing (bcrypt encryption)
-
-## config.php
-
-Modify the *config.php* file and add your database credentials.
-
-### Database tables
-
-Create two tables in phpmyadmin called *shares* and *users* with the fields listed below:
-
 __shares___
 * id (INT, PRIMARY, AUTO_INCREMENT)
 * user_id (INT)

@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PHPSUN-MiniProject</title>
+  <link rel="stylesheet" href="assets/css/styles.min.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+    <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+    data-sidebar-position="fixed" data-header-position="fixed">
+        <div class="body-wrapper">
+            <header class="app-header">
+                <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between">
+                    <a href="crud-list.html" class="text-nowrap logo-img">
+                        <img src="assets/images/logos/logo.png" width="100" alt="">
+                    </a>
+                    <span class="fw-bold">Xin chào ABC, <a href="" class="text-danger">Đăng xuất</a></span>
+                </nav>
+            </header>
+            <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-12 d-flex align-items-stretch">
+                    <div class="card w-100">
+                      <div class="card-body p-4">
+                        <h5 class="card-title fw-semibold mb-4">Danh sách bài viết</h5>
+                        <div class="search-box">
+                          <div class="search-bar">
+                            <input type="text" class="form-control search-input" placeholder="Tìm kiếm..."/>
+                          </div>
+                          <a class="btn btn-success">Thêm</a>
+                        </div>                
+                        <div class="table-responsive">
+                          <table class="table align-middle">
+                            <thead class="text-dark fs-4">
+                              <tr>
+                                <th class="border-bottom-0">
+                                    <h6 class="fw-semibold mb-0">Ảnh nền</h6>
+                                </th>
+                                <th class="border-bottom-0">
+                                    <h6 class="fw-semibold mb-0">Tiêu đề</h6>
+                                </th>
+                                <th class="border-bottom-0">
+                                    <h6 class="fw-semibold mb-0">Tác giả</h6>
+                                </th>
+                                <th class="border-bottom-0">
+                                    <h6 class="fw-semibold mb-0">Thể loại</h6>
+                                </th>
+                                <th class="border-bottom-0">
+                                    <h6 class="fw-semibold mb-0" style="width:250px;">Mô tả</h6>
+                                </th>
+                                <th class="border-bottom-0">
+                                    <h6 class="fw-semibold mb-0">Ngày phát hành</h6>
+                                </th>
+                                <th class="border-bottom-0">
+                                    <h6 class="fw-semibold mb-0 text-center"></h6>
+                                </th>
+                              </tr>
+                            </thead>                    
+                            <tbody>
+                              <tr>
+                                <td class="border-bottom-0">
+                                    <p class="fw-semibold mb-0">
+                                      <img style="width:70px; height:auto;" src="https://play-lh.googleusercontent.com/P8D-vfnCmeaP3b3pbS_JmWlDkGGYaPg1xE4rOXMWPiTsL8fKlpsTxgVOkWj7w1ryx0pC" />
+                                    </p>
+                                </td>
+                                <td class="border-bottom-0">
+                                    <p class="fw-semibold mb-0">Cuộc chiến UAV giữa Nga và Ukraine ngày càng căng thẳng</p>
+                                </td>                     
+                                <td class="border-bottom-0">
+                                    <p class="mb-0 fw-normal">Nguyễn Xuân Khoa</p>
+                                </td>
+                                <td class="border-bottom-0">
+                                    <p class="mb-0 fw-normal">Chính trị</p>
+                                </td>
+                                <td class="border-bottom-0">
+                                    <details>
+                                      <summary>Nội dung</summary>
+                                      <p class="mb-0 fw-normal text-wrap" style="width:250px;">Xung đột Nga - Ukraine đã đưa máy bay không người lái (UAV) trở thành tâm điểm chú ý, giúp định hình lại tương lai của chiến trường khi cả hai bên đều cố gắng chiếm thế thượng phong trên không</p>
+                                    </details>
+                                </td>
+                                <td class="border-bottom-0">
+                                  <p class="mb-0 fw-normal">Thứ tư, 05/07/2023 - 13:15</p>
+                                </td>
+                                <td class="border-bottom-0">
+                                    <a type="button" class="btn btn-info">Xem</a>
+                                    <button type="button" class="btn btn-danger">Xoá</button>
+                                </td>
+                              </tr>
+                            </tbody>                    
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

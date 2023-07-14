@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PHPSUN-MiniProject</title>
+  <link rel="stylesheet" href="assets/css/styles.min.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+    <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+    data-sidebar-position="fixed" data-header-position="fixed">
+        <header class="app-header">
+            <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between">
+                <a href="crud-list.html" class="text-nowrap logo-img">
+                    <img src="assets/images/logos/logo.png" width="100" alt="">
+                </a>
+                <span class="fw-bold">Xin chào ABC, <a href="" class="text-danger">Đăng xuất</a></span>
+            </nav>
+        </header>
+        <div class="body-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 d-flex align-items-stretch">
+                      <div class="card w-100">
+                        <div class="card-body p-4">
+                          <h5 class="card-title fw-semibold mb-4">Thêm bài báo</h5>               
+                          <form>
+                            <div class="row">
+                              <div class="col-6">
+                                <div class="row">
+                                  <div class="mb-3 col-6">
+                                    <label for="name" class="form-label">Tiêu đề*</label>
+                                    <input 
+                                      type="text" 
+                                      class="form-control" id="name" />
+                                  </div>
+                                  <div class="mb-3 col-6">
+                                    <label for="tacgia" class="form-label">Tác giả*</label>
+                                    <input 
+                                      type="text"
+                                      class="form-control" id="tacgia" />
+                                  </div>
+                                  <div class="mb-3 col-12">
+                                      <label for="mota" class="form-label">Mô tả*</label>
+                                      <textarea class="form-control" id="mota" rows="6"></textarea>
+                                  </div>  
+                                  <div class="mb-3 col-6">
+                                      <label for="ngayphathanh" class="form-label">Ngày phát hành*</label>
+                                      <input 
+                                        type="date" 
+                                        class="form-control" id="ngayphathanh" />
+                                  </div>
+                                  <div class="mb-3 col-6">
+                                      <label for="theloai" class="form-label">Thể loại</label>
+                                      <select class="form-select form-control" id="selectBox">
+                                        <option value="none" disabled selected>--Chọn thể loại--</option>
+                                      </select>
+                                  </div>   
+                                </div>                                        
+                              </div>
+                              <div class="col-6 mb-3">
+                                  <label for="theloai" class="form-label">Ảnh nền</label>
+                                  <input type="file" class="form-control" />
+                              </div>                                    
+                            </div>     
+                            <div class="horizontal-line"></div>
+                            <div class="d-flex justify-content-end">
+                              <button type="button" class="btn btn-info" >Thêm</button>
+                              &nbsp;
+                              <button type="button" class="btn btn-danger">Huỷ</button>
+                          </div>
+                          </form> 
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
